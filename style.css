@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3f323f;
+}
+.header {
+  background-color: #3f323f;
+  height: 250px;
+}
+.about-img {
+  border-radius: 50%;
+  height: 200px;
+  margin-top: 10px;
+}
+.about-title,
+.about-text {
+  color: #e3e9f3;
+  font-size: 40px;
+}
+.about-text {
+  font-size: 25px;
+}
+.form {
+  background-color: #e5d6d2;
+  height: 300px;
+}
+.form-username {
+  padding: 0px 0px 2px;
+  border: none;
+  border-bottom: 1px solid #3f323f;
+  background-color: transparent;
+  outline: none;
+}
+.form-email {
+  padding: 0px 0px 2px;
+  border: none;
+  border-bottom: 1px solid #3f323f;
+  background-color: transparent;
+  outline: none;
+}
+.textarea-wrapper {
+  padding: 0px 0px 20px;
+  border: none;
+  border-bottom: 1px solid #3f323f;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  width: 300px;
+  height: 15px;
+}
+.btn {
+  background-color: #3f323f;
+  color: white;
+  height: 40px;
+  width: 165px;
+}
+.btn:focus,
+.btn:hover {
+  background-color: #554155;
+}
+.footer {
+  background-color: #3f323f;
+}
+.footer-title {
+  color: white;
+}
+.footer-item {
+  color: white;
+  text-decoration: none;
+}
+.footer-text {
+  color: #958995;
+}
+.conteiner {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header-cont {
+  display: flex;
+  align-items: center;
+}
+.about-cont {
+  margin-left: 90px;
+}
+
+/* objective */
+
+.objective {
+  padding-top: 50px;
+}
+.objective-text {
+  padding-bottom: 25px;
+  padding-top: 15px;
+}
+
+/* expirience */
+
+.experience-title {
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.block {
+  display: flex;
+}
+.experience-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.experience-title2 {
+  padding-left: 125px;
+  margin-bottom: 15px;
+}
+.experience-text,
+.experience-text2,
+.experience-text3 {
+  padding-left: 220px;
+  margin-bottom: 35px;
+}
+
+.experience-title3 {
+  padding-left: 143px;
+  margin-bottom: 15px;
+}
+.experience-title4 {
+  padding-left: 143px;
+  margin-bottom: 15px;
+}
+
+/* skills */
+
+.conteiner-skills {
+  margin-top: 100px;
+}
+.skills-title {
+  margin-bottom: 35px;
+}
+.skills-text {
+  margin-bottom: 35px;
+}
+
+/* language */
+
+.conteiner-language {
+  margin-top: 50px;
+}
+.language-title {
+  margin-bottom: 25px;
+}
+.language-item {
+  margin-bottom: 15px;
+  list-style-type: square;
+  margin-left: 15px;
+}
+
+/* Form */
+
+.form-title {
+  margin-top: 70px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.cont-ename {
+  display: flex;
+  justify-content: center;
+}
+.form-username {
+  width: 336px;
+}
+.area-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.textarea-wrapper {
+  width: 505px;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: none;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 40px;
+  color: white;
+  list-style-type: none;
+}
+.footer-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+.footer-text {
+  text-align: center;
+}
